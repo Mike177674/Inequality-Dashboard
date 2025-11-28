@@ -2,6 +2,9 @@
 
 The TidyTuesday prompt that I will create a visualization for is “Income Inequality Before and After Taxes” from August 5th, 2025. This data was compiled by Our World in Data gives Gini Coefficient values for countries before taxation and also after the redistributive effects of taxation and welfare have been applied. 
 
+# Dashboard Link
+https://michal1.shinyapps.io/Inequality_Dashboard/
+
 # Information about Dashboard
 My visualization of the data, titled “Inequality and Taxes,” is a Shiny Dashboard with two visuals. Visual A is a plot that displays inequality before and after taxes, and how it changes over time. This graph helps compare countries on both metrics, which gives more economic context than just looking at one metric or just the change. For example, a country with high pre-tax inequality but low post-tax inequality, like Sweden, should not be considered similar to a country with low pre- and post-tax inequality, like Finland. Likewise, the change in inequality over time is encoded by the arrows, which give a powerful tool to consider patterns that would otherwise not be clear. The trend of the selected countries is captured by the black arrow. Overall, there is a small trend towards countries being more unequal both pre- and post-tax, but inspection shows that many countries have seen large changes over their recorded histories. For example, the United Kingdom and Germany both became much more unequal, while Slovakia became more equal. I had to consider several limitations when making Part A. Three countries, Brazil, South Africa, and the Dominican Republic, were strong outliers, and to maintain readability, I had to remove them from the graph. Also, I only encoded the starting year using the last two digits of the year, because the data for most countries ends around 2020, and there was not enough room to encode more data.
 
